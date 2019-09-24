@@ -1,0 +1,322 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 936px;
+    /*min width is for greencard container */
+}
+
+header {
+    background-color: #c9222a;
+    min-width: 600px;
+    font-family: 'Mansalva', cursive;
+    font-size: 16px;
+}
+
+header ul {
+    display: flex;
+    height: inherit;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.header-container {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    max-width: 1100px;
+    height: 85px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* PEPPES LOGO IMAGE */
+
+.logo {
+    /* width: minmax(170px, 170px); */
+    min-width: 83px;
+    height: 100%;
+    background-size: cover;
+}
+
+.logo img {
+    position: absolute;
+    width: 80px;
+    bottom: -16px;
+}
+
+/*log in button */
+
+.login-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.login-wrapper a {
+    padding-right: 30px;
+    position: relative;
+}
+
+.login-wrapper img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+/* log in icon */
+
+.profileicon {
+    width: 20px;
+    height: 20px;
+}
+
+/* on hover effects */
+
+header ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 2px solid black;
+}
+
+.login-wrapper a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*                 GREEN CARDS               */
+
+.greencard-container {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Mansalva', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+.greencard {
+    height: 95px;
+    width: 33%;
+    background-color: #40AE49;
+    border-bottom: 2px solid #399C41;
+    display: inline-block;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.greencard:hover {
+    background-color: black;
+}
+
+.greencard img {
+    vertical-align: middle;
+}
+
+.greencard a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.textDiv {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.pizza, .bord, .restaurant {
+    display: block;
+    height: 80%;
+    width: 90%;
+    min-width: 308px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.pizza-image {
+    width: 100%;
+    min-width: 1500px;
+    max-width: 2200px;
+}
+
+.section1 {
+    margin: auto;
+    max-width: 1390px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    margin: auto;
+    max-width: 1390px;
+    margin-bottom: 50px;
+}
+
+.front-page-button {
+    display: inline-block;
+    width: 33%;
+}
+
+.front-page-button img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.button1 {
+    padding-right: 15px;
+}
+
+.button2 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.button3 {
+    padding-left: 15px;
+}
+
+footer {
+    border-top: 3px solid grey;
+}
+
+.link-wrapper {
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    width: 480px;
+    height: 60px;
+}
+
+.link-wrapper a {
+    display: inline-block;
+    height: 100%;
+}
+
+.link-wrapper a:hover span {
+    color: rgb(59, 59, 59);
+}
+
+.link-wrapper i {
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-right: 8px;
+}
+
+.social-wrapper {
+    display: inline-block;
+    width: 32%;
+}
+
+.social-wrapper:hover span {
+    color: rgb(78, 78, 78);
+}
+
+.text-container {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    width: 110px;
+    float: right;
+}
+
+.intro {
+    display: block;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+}
+
+.main {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+
+.icon {
+    margin-top: 2px;
+    height: 100%;
+}
+
+.phone {
+    background: url(img/social-icons/icon-phone.png);
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background: url(img/social-icons/icon-facebook.png);
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background: url(img/social-icons/icon-instagram.png);
+    background-repeat: no-repeat;
+}
+
+.phone-hover:hover i {
+    background-image: url(img/social-icons/icon-phone.png);
+    background-position-x: -31px;
+}
+
+.facebook-hover:hover i {
+    background: url(img/social-icons/icon-facebook.png);
+    background-position-x: -31px;
+}
+
+.instagram-hover:hover i {
+    background: url(img/social-icons/icon-instagram.png);
+    background-position-x: -31px;
+}
+
+footer > a {
+    display: block;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+footer > a:hover {
+    color: rgb(78, 78, 78);
+}
