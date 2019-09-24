@@ -1,4 +1,4 @@
-##PeppesPizza
+## PeppesPizza
 A Copy of peppes.no website dont from scratch
-##Demo
+## Demo
 https://juxectar.github.io/PeppesPizza/
