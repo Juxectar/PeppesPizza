@@ -1,4 +1,4 @@
 ## Peppes Pizza
-A Copy of peppes.no website dont from scratch
+A Copy of peppes.no website done from scratch
 ## Demo
 ### https://juxectar.github.io/PeppesPizza/
