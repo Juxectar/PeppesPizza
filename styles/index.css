@@ -99,9 +99,14 @@ header a {
 
 /* on hover effects */
 
+#forside {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 4px solid black;
+}
+
 header ul li a:hover {
     color: rgba(255, 255, 255, 1);
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid black;
 }
 
 .login-wrapper a:hover {
@@ -306,7 +311,7 @@ footer {
     background-position-x: -31px;
 }
 
-footer > a {
+footer>a {
     display: block;
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
@@ -317,6 +322,7 @@ footer > a {
     text-align: center;
     margin: 15px;
 }
-footer > a:hover {
+
+footer>a:hover {
     color: rgb(78, 78, 78);
 }

@@ -1,0 +1,206 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 936px;
+    /*min width is for greencard container */
+}
+
+header {
+    background-color: #c9222a;
+    min-width: 600px;
+    font-family: 'Mansalva', cursive;
+    font-size: 16px;
+}
+
+header ul {
+    display: flex;
+    height: inherit;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.header-container {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    max-width: 1100px;
+    height: 85px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* PEPPES LOGO IMAGE */
+
+.logo {
+    /* width: minmax(170px, 170px); */
+    min-width: 83px;
+    height: 100%;
+    background-size: cover;
+}
+
+.logo img {
+    position: absolute;
+    width: 80px;
+    bottom: -16px;
+}
+
+/*log in button */
+
+.login-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.login-wrapper a {
+    padding-right: 30px;
+    position: relative;
+}
+
+.login-wrapper img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+/* log in icon */
+
+.profileicon {
+    width: 20px;
+    height: 20px;
+}
+
+/* on hover effects */
+
+#bestill {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 4px solid black;
+}
+
+header ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 4px solid black;
+}
+
+.login-wrapper a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* list for food */
+
+.section1 {
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.foodul {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.foodul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.foodul a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #959595;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* container content */
+
+nav {
+    width: 200px;
+    border-top: 1px solid #CBC9BD;
+}
+
+nav a {
+    display: block;
+    line-height: 28px;
+}
+
+nav a:hover {
+    background-color: #E0DFD0;
+    background-image: url(../img/bestill/activearrow.png);
+   background-position: right center;
+   background-repeat: no-repeat;
+   border-right: 10px solid transparent;
+}
+
+.container nav li {
+    list-style: none;
+    border-bottom: 1px solid #CBC9BD;
+}
+
+.parentlist {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.container nav a {
+    text-decoration: none;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000000bb;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sublist a:hover {
+    font-weight: bold !important;
+    background-image: url(../img/bestill/activearrow.png) !important;
+   background-position: left center !important;
+   background-repeat: no-repeat !important;
+}
+
+.sublistul li a {
+    white-space: nowrap;
+}
+
+.sublist a {
+    font-weight: unset !important;
+    color: #444444bb !important;
+    border-left: 10px solid transparent !important;
+}
