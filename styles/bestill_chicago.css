@@ -359,6 +359,8 @@ nav a:hover {
 
 .search-bar {
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
     display: flex;
     width: 90%;
     height: 40px;
@@ -395,7 +397,19 @@ nav a:hover {
 .submit-button:hover {
     cursor: pointer;
 }
+/* alergi filter */
 
+.alergifilter {
+    background-color: #74746E;
+    height: 30px;
+    font-family: 'Big Shoulders Text', cursive;
+    padding: 5px 10px 5px 10px;
+    color: white;
+     
+}
+.alergifilter:hover {
+    background-color: #4C4C49;
+}
 .pizza-item-container {
     display: flex;
     justify-content: center;

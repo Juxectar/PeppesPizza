@@ -112,3 +112,116 @@ header ul li a:hover {
 .login-wrapper a:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+/* footer */
+footer {
+    border-top: 3px solid grey;
+    max-width: 1380px;
+    margin: auto;
+}
+
+.link-wrapper {
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    width: 480px;
+    height: 60px;
+}
+
+.link-wrapper a {
+    display: inline-block;
+    height: 100%;
+}
+
+.link-wrapper a:hover span {
+    color: rgb(59, 59, 59);
+}
+
+.link-wrapper i {
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-right: 8px;
+}
+
+.social-wrapper {
+    display: inline-block;
+    width: 32%;
+}
+
+.social-wrapper:hover span {
+    color: rgb(78, 78, 78);
+}
+
+.text-container {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    width: 110px;
+    float: right;
+}
+
+.intro {
+    display: block;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+}
+
+.main {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+
+.icon {
+    margin-top: 2px;
+    height: 100%;
+}
+
+.phone {
+    background: url(../img/social-icons/icon-phone.png);
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background: url(../img/social-icons/icon-facebook.png);
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background: url(../img/social-icons/icon-instagram.png);
+    background-repeat: no-repeat;
+}
+
+.phone-hover:hover i {
+    background-image: url(../img/social-icons/icon-phone.png);
+    background-position-x: -31px;
+}
+
+.facebook-hover:hover i {
+    background: url(../img/social-icons/icon-facebook.png);
+    background-position-x: -31px;
+}
+
+.instagram-hover:hover i {
+    background: url(../img/social-icons/icon-instagram.png);
+    background-position-x: -31px;
+}
+
+footer>a {
+    display: block;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+footer>a:hover {
+    color: rgb(78, 78, 78);
+}

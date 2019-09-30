@@ -216,7 +216,7 @@ header ul li a:hover {
 .button3 {
     padding-left: 15px;
 }
-
+ /* footer */
 footer {
     border-top: 3px solid grey;
 }
@@ -282,32 +282,32 @@ footer {
 }
 
 .phone {
-    background: url(img/social-icons/icon-phone.png);
+    background: url(../img/social-icons/icon-phone.png);
     background-repeat: no-repeat;
 }
 
 .facebook {
-    background: url(img/social-icons/icon-facebook.png);
+    background: url(../img/social-icons/icon-facebook.png);
     background-repeat: no-repeat;
 }
 
 .instagram {
-    background: url(img/social-icons/icon-instagram.png);
+    background: url(../img/social-icons/icon-instagram.png);
     background-repeat: no-repeat;
 }
 
 .phone-hover:hover i {
-    background-image: url(img/social-icons/icon-phone.png);
+    background-image: url(../img/social-icons/icon-phone.png);
     background-position-x: -31px;
 }
 
 .facebook-hover:hover i {
-    background: url(img/social-icons/icon-facebook.png);
+    background: url(../img/social-icons/icon-facebook.png);
     background-position-x: -31px;
 }
 
 .instagram-hover:hover i {
-    background: url(img/social-icons/icon-instagram.png);
+    background: url(../img/social-icons/icon-instagram.png);
     background-position-x: -31px;
 }
 
