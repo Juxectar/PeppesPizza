@@ -166,6 +166,7 @@ nav a:hover {
     background-repeat: no-repeat;
     border-right: 10px solid transparent;
 }
+
 .pizza {
     background-color: #E0DFD0;
     background-image: url(../img/bestill/activearrow.png);
@@ -173,6 +174,13 @@ nav a:hover {
     background-repeat: no-repeat;
     border-right: 10px solid transparent;
 }
+
+.classic a {
+    background-image: url(../img/bestill/activearrow.png) !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+
 .container nav li {
     list-style: none;
     border-bottom: 1px solid #CBC9BD;
@@ -232,7 +240,6 @@ nav a:hover {
 .menunav {
     width: 300px;
 }
-
 
 /* MIDDLE SECTION */
 
@@ -397,6 +404,7 @@ nav a:hover {
 .submit-button:hover {
     cursor: pointer;
 }
+
 /* alergi filter */
 
 .alergifilter {
@@ -405,18 +413,18 @@ nav a:hover {
     font-family: 'Big Shoulders Text', cursive;
     padding: 5px 10px 5px 10px;
     color: white;
-     
 }
+
 .alergifilter:hover {
     background-color: #4C4C49;
 }
+
 .pizza-item-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Big Shoulders Text', cursive;
     width: 100%;
-    
 }
 
 .pizza-item-container a {
@@ -452,6 +460,7 @@ nav a:hover {
     width: 100%;
     margin-bottom: 2px;
 }
+
 .single-container {
     width: 100%;
     max-width: 285px;
@@ -460,6 +469,7 @@ nav a:hover {
 }
 
 /* footer */
+
 footer {
     border-top: 3px solid grey;
     max-width: 1380px;
