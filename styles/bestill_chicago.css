@@ -425,20 +425,12 @@ nav a:hover {
     flex-wrap: wrap;
     font-family: 'Big Shoulders Text', cursive;
     width: 100%;
+    background-color: #E3DFDE;
+    margin-bottom: 50px;
 }
 
 .pizza-item-container a {
     text-decoration: none;
-}
-
-.pizza-item-container a:hover .description-wrapper {
-    background-color: #5B5B57;
-    transition: ease-out 250ms;
-}
-
-.pizza-item-container a:hover p {
-    color: white;
-    transition: ease-out 250ms;
 }
 
 .description-wrapper {
@@ -465,7 +457,160 @@ nav a:hover {
     width: 100%;
     max-width: 285px;
     margin: 10px;
-    background-color: #F2F0E9;
+    background-color: white;
+}
+
+.top {
+    padding: 10px;
+}
+
+.top h3 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #535251;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase;
+}
+
+.description {
+    text-transform: unset;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 150px;
+    padding-bottom: 5px;
+}
+
+.description p {
+    border-bottom: 1px solid grey;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.pizza-size-container {
+    margin: 0 10px 0 10px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid grey;
+}
+
+.pizza-size {
+    display: inline-block;
+    width: 30%;
+}
+
+.pizza-size a {
+    display: inline-block;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.stor {
+    border: 2px solid #40AE49;
+}
+.pizza-amount {
+    height: 35px;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.pizza-amount a {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e8e6da;
+    line-height: 24px;
+}
+
+.quantity {
+    float: left;
+    height: 20px;
+}
+
+.number {
+    border: none;
+    text-align: center;
+    width: 25px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #e8e6da;
+}
+
+.del-i-to {
+    height: 100%;
+    padding-top: 5px;
+    float: right;
+}
+
+.bestill {
+    margin: 0 10px 0 10px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.bestill-button {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #40AE49;
+    color: white;
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: center;
+    display: inline-block;
+    width: 74%;
+    height: 100%;
+    line-height: 50px;
+
+}
+.bestill-button:hover {
+    background-color: #338B3A;
+}
+.rediger-button {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #338B3A;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    line-height: 50px;
+    border: 1px solid #D9D8D1;
+}
+
+/* class to add to active pizza size button */
+
+.activeClass {
+    border: 2px solid #40AE49;
+}
+
+.size {
+    padding: 2px 2px 2px 3px;
+    color: #5b5b57;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(168, 168, 163);
+    border-radius: 50px;
+    background-color: #E8E6DA;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.tiny-text {
+    font-size: 11px;
+    float: right;
 }
 
 /* footer */
