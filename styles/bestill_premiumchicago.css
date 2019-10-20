@@ -1,0 +1,730 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 936px;
+    /*min width is for greencard container */
+}
+
+header {
+    background-color: #c9222a;
+    min-width: 600px;
+    font-family: 'Mansalva', cursive;
+    font-size: 16px;
+}
+
+header ul {
+    display: flex;
+    height: inherit;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.header-container {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    max-width: 1100px;
+    height: 85px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* PEPPES LOGO IMAGE */
+
+.logo {
+    /* width: minmax(170px, 170px); */
+    min-width: 83px;
+    height: 100%;
+    background-size: cover;
+}
+
+.logo img {
+    position: absolute;
+    width: 80px;
+    bottom: -16px;
+}
+
+/*log in button */
+
+.login-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.login-wrapper a {
+    padding-right: 30px;
+    position: relative;
+}
+
+.login-wrapper img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+/* log in icon */
+
+.profileicon {
+    width: 20px;
+    height: 20px;
+}
+
+/* on hover effects */
+
+#bestill {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 4px solid black;
+}
+
+header ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 4px solid black;
+}
+
+.login-wrapper a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* list for food */
+
+.section1 {
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.foodul {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.foodul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.foodul a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #959595;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* container content */
+
+nav {
+    width: 200px;
+    border-top: 1px solid #CBC9BD;
+}
+
+nav a {
+    display: block;
+    line-height: 28px;
+}
+
+nav a:hover {
+    background-color: #E0DFD0;
+    background-image: url(../img/bestill/activearrow.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-right: 10px solid transparent;
+}
+
+.pizza {
+    background-color: #E0DFD0;
+    background-image: url(../img/bestill/activearrow.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-right: 10px solid transparent;
+}
+
+.premium a {
+    background-image: url(../img/bestill/activearrow.png) !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+
+.container nav li {
+    list-style: none;
+    border-bottom: 1px solid #CBC9BD;
+}
+
+.parentlist {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.container nav a {
+    text-decoration: none;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000000bb;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sublist a:hover {
+    font-weight: bold !important;
+    background-color: unset !important;
+    background-image: url(../img/bestill/activearrow.png) !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+
+.sublistul li a {
+    white-space: nowrap;
+}
+
+.sublist a {
+    font-weight: unset !important;
+    color: #444444bb !important;
+    border-left: 10px solid transparent !important;
+}
+
+/* section */
+
+.section1 {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*MENU NAV */
+
+.menunav {
+    width: 300px;
+}
+
+/* MIDDLE SECTION */
+
+.middlesection {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-info {
+    background-color: #E0DFD0;
+    width: 100%;
+}
+
+.info-top {
+    border-bottom: 1px solid grey;
+    flex-direction: column;
+}
+
+.info-top h3 {
+    font-size: 1em;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #535251;
+}
+
+.info-top span {
+    color: #535251;
+    font-size: 14px;
+}
+
+.info-top, .info-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info-bottom p {
+    color: #535251;
+    font-size: 12px;
+}
+
+.pizzalabel {
+    float: right;
+    height: 60px;
+    width: auto;
+    margin-left: auto;
+}
+
+/* END SECTION */
+
+.endsection {
+    width: 250px;
+    font-family: sans-serif;
+}
+
+/* top del din-bestilling */
+
+.din-bestilling-div {
+    margin-bottom: 20px;
+}
+
+.din-bestilling-div span {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+
+.din-bestilling-div h4, .favoritt-bestillinger h4 {
+    background-color: #E4E3DC;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 16px;
+}
+
+.din-bestilling-div div, .favoritt-bestillinger div {
+    background-color: #F2F0E9;
+    padding: 5px;
+}
+
+/* nedre del favorittbestillinger */
+
+.favoritt-bestillinger h5 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #444444;
+}
+
+.favoritt-bestillinger h5 {
+    border-bottom: 1px solid #7b7a7781;
+    padding-bottom: 10px;
+}
+
+.favoritt-bestillinger a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
+    background-color: #399C41;
+}
+
+.favoritt-bestillinger a:hover {
+    background-color: rgb(48, 128, 53);
+}
+
+.favoritt-bestillinger p {
+    color: #7b7a77;
+    font-size: 12px;
+}
+
+/* search bar */
+
+.pizza-categories-container h2 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    border: 2px solid #9b9b9b;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.textfield {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    border: none;
+    outline: none;
+}
+
+.submit-button {
+    margin-left: auto;
+    margin-right: -2px;
+    width: 40px;
+    border: 7px solid transparent;
+    outline: none;
+    border-radius: 50px;
+    background-color: #9b9b9b;
+    background-image: url(../img/bestill/search.png);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+/* alergi filter */
+
+.alergifilter {
+    background-color: #74746E;
+    height: 30px;
+    font-family: 'Big Shoulders Text', cursive;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.alergifilter:hover {
+    background-color: #4C4C49;
+}
+
+.pizza-item-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Big Shoulders Text', cursive;
+    width: 100%;
+    background-color: #E3DFDE;
+    margin-bottom: 50px;
+}
+
+.pizza-item-container a {
+    text-decoration: none;
+}
+
+.description-wrapper {
+    height: 113px;
+}
+
+.description {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 24px;
+    color: #4d4d4d;
+}
+
+.pizza-item-container span {
+    font-weight: bold;
+}
+
+.pizza-item-container img {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.single-container {
+    width: 100%;
+    max-width: 285px;
+    margin: 10px;
+    background-color: white;
+}
+
+.top {
+    padding: 10px;
+}
+
+.top h3 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #535251;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase;
+}
+
+.description {
+    text-transform: unset;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 150px;
+    padding-bottom: 5px;
+}
+
+.description p {
+    border-bottom: 1px solid grey;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.pizza-size-container {
+    margin: 0 10px 0 10px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid grey;
+}
+
+.pizza-size {
+    display: inline-block;
+    width: 30%;
+}
+
+.pizza-size a {
+    display: inline-block;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.stor {
+    border: 2px solid #40AE49;
+}
+.pizza-amount {
+    height: 35px;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.pizza-amount a {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e8e6da;
+    line-height: 24px;
+}
+
+.quantity {
+    float: left;
+    height: 20px;
+}
+
+.number {
+    border: none;
+    text-align: center;
+    width: 25px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #e8e6da;
+}
+
+.del-i-to {
+    height: 100%;
+    padding-top: 5px;
+    float: right;
+}
+
+.bestill {
+    margin: 0 10px 0 10px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.bestill-button {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #40AE49;
+    color: white;
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: center;
+    display: inline-block;
+    width: 74%;
+    height: 100%;
+    line-height: 50px;
+
+}
+.bestill-button:hover {
+    background-color: #338B3A;
+}
+.rediger-button {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Big Shoulders Text', cursive;
+    color: #338B3A;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    line-height: 50px;
+    border: 1px solid #D9D8D1;
+}
+
+/* class to add to active pizza size button */
+
+.activeClass {
+    border: 2px solid #40AE49;
+}
+
+.size {
+    padding: 2px 2px 2px 3px;
+    color: #5b5b57;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(168, 168, 163);
+    border-radius: 50px;
+    background-color: #E8E6DA;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.tiny-text {
+    font-size: 11px;
+    float: right;
+}
+
+/* footer */
+
+footer {
+    border-top: 3px solid grey;
+    max-width: 1380px;
+    margin: auto;
+}
+
+.link-wrapper {
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    width: 480px;
+    height: 60px;
+}
+
+.link-wrapper a {
+    display: inline-block;
+    height: 100%;
+}
+
+.link-wrapper a:hover span {
+    color: rgb(59, 59, 59);
+}
+
+.link-wrapper i {
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-right: 8px;
+}
+
+.social-wrapper {
+    display: inline-block;
+    width: 32%;
+}
+
+.social-wrapper:hover span {
+    color: rgb(78, 78, 78);
+}
+
+.text-container {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    width: 110px;
+    float: right;
+}
+
+.intro {
+    display: block;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+}
+
+.main {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+
+.icon {
+    margin-top: 2px;
+    height: 100%;
+}
+
+.phone {
+    background: url(../img/social-icons/icon-phone.png);
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background: url(../img/social-icons/icon-facebook.png);
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background: url(../img/social-icons/icon-instagram.png);
+    background-repeat: no-repeat;
+}
+
+.phone-hover:hover i {
+    background-image: url(../img/social-icons/icon-phone.png);
+    background-position-x: -31px;
+}
+
+.facebook-hover:hover i {
+    background: url(../img/social-icons/icon-facebook.png);
+    background-position-x: -31px;
+}
+
+.instagram-hover:hover i {
+    background: url(../img/social-icons/icon-instagram.png);
+    background-position-x: -31px;
+}
+
+footer>a {
+    display: block;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+footer>a:hover {
+    color: rgb(78, 78, 78);
+}
+
+
